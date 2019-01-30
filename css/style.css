@@ -1,0 +1,184 @@
+header{
+	color: #FF4500;
+	text-align: center;
+
+}
+
+h3{
+	float: center;
+	color: #696969;
+	margin-left: 15px;
+}
+
+p{
+	color: #696969;
+}
+.nav{
+	background-color:#FFFFE0;
+	list-style-type: none;
+  	text-align: center; 
+  	padding: 0px;
+  	margin: 0;
+
+}
+
+.nav li{
+	display: inline-block;
+	font-color:  #FF4500;
+	font-size: 15px;
+	padding:10px;
+}
+
+div.container{
+	padding-left: 50px;
+	position: relative;
+	
+}
+
+.s1{
+	float: right;
+	width:30%;
+
+	/*position: relative;*/
+}
+
+
+.s2{
+	float: left;
+	/*position: relative;*/
+
+	width: 70%;
+	color: #696969 ;
+	font-size: 15px;
+}
+
+/*img{
+	border-radius: 50%;
+}*/
+
+
+div.gallery{
+	display: inline-block;
+
+	margin: 20px;
+	border: 1px solid #ccc;
+	float: center;
+	width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  /*height: auto;*/
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #696969
+}
+div.container1{
+	margin: 20px;
+
+}
+.a1{
+	float: left;
+	width: 30%;
+
+}
+.a2{
+	float: center;
+	width: 30%;
+	
+}
+.a3{
+	float: right;
+	width: 30%;
+}
+	
+.clear-fix{
+	clear: both;
+}
+
+/*portfolio contents*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+div.content:hover {
+  border: 1px solid #777;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*portfolio contents */
+
+footer{
+	background-color: #FFFFE0;
+	text-align: center;
+    /*text-decoration-color:#4169E1;*/
+	font-size: 15px;
+	margin-top: 40px;
+
+
+}
